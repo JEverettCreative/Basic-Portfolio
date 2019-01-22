@@ -8,6 +8,8 @@
 
 body {
     margin: 20px 0px 0px 0px;
+    /* Background pattern from Toptal Subtle Patterns*/
+    background-image: url(../images/dust_scratches.png);
 }
 
 h1 {
@@ -89,6 +91,7 @@ footer {
     clear: left;
     max-width: 960px;
     margin: 30px auto;
+    overflow: auto;
 }
 
 .mainWrapper {
@@ -99,9 +102,17 @@ footer {
 
 img {
     float: left;
-    width: 25%;
+    width: 100%;
     position: relative;
     margin-right: 20px;
+}
+
+
+.imageContainer {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: auto;
 }
 
 #headshot {
@@ -109,10 +120,10 @@ img {
     overflow: auto;
 }
 
-.clearfix: ::after {
+.clearfix::after {
     content: "";
-    clear: right;
-    overflow: auto;
+    clear: both;
+    display: table;
 }
 
 .absolute {
