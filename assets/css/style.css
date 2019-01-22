@@ -6,6 +6,15 @@
     -moz-box-sizing: border-box;
 }
 
+a :hover {
+    color: #FF5700;
+}   a :active {
+        color: #00FFF2;
+    } a: :visited {
+            color: #B23D00;
+        }
+
+
 body {
     margin: 20px 0px 0px 0px;
     /* Background pattern from Toptal Subtle Patterns*/
@@ -51,7 +60,6 @@ footer {
     left: 0;
     bottom: 0;
     width: 33%;
-
 }
 
 .headerBox {
@@ -95,7 +103,7 @@ footer {
 }
 
 .mainWrapper {
-    margin: 20px;
+    margin: 30px;
 }
 
 /* Image-related stylings */
@@ -105,14 +113,19 @@ img {
     width: 100%;
     position: relative;
     margin-right: 20px;
+}   
+
+.hover:hover {
+    box-shadow: 6px 6px #00FFF2;
 }
 
 
 .imageContainer {
     position: relative;
-    width: 25%;
+    width: 30%;
     float: left;
     overflow: auto;
+    margin: 10px 30px 40px 0px;
 }
 
 #headshot {
@@ -128,5 +141,36 @@ img {
 
 .absolute {
     position: absolute;
-    bottom: 3px;
+    bottom: 5px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+/* Contact page styles here */
+
+input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}   
+
+#message {
+    width: 100%;
+}
+
+#submit {
+    width: 10%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 10px 0px 5px 0px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
