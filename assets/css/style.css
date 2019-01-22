@@ -6,6 +6,11 @@
     -moz-box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
 a :hover {
     color: #FF5700;
 }   a :active {
@@ -74,11 +79,17 @@ footer {
     font-size: 16px;
     position: absolute;
     right: 0;
+    top: 27px; 
+}
+
+#aboutNav {
+    padding-right: 6px;
 }
 
 #portfolioNav {
     border-left: 1px solid #cccccc;
     padding-left: 9px;
+    padding-right: 6px;
 }
 
 #contactNav {
@@ -118,7 +129,6 @@ img {
 .hover:hover {
     box-shadow: 6px 6px #00FFF2;
 }
-
 
 .imageContainer {
     position: relative;
